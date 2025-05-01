@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form: GDC Beerwah</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="studentName">Student Name:</label>
+        <input type="text" maxlength="15" size="40" disabled name="studentName" id="studentname" placeholder="Student Name">
+        <br>
+        <label for="parentage">Parentage:</label>
+        <input type="text" name="Parentage" id="parentage" placeholder="Parentage">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="Email" id="email" placeholder="Email">
+
+        <br>
+        <label for="tel">Telephone:</label>
+        <input type="tel" name="Telephone" id="tel" placeholder="Telephone">
+        <br>
+        <label for="color">Fabric Color:</label>
+        <input type="color" id="color" name="color">
+        <br>
+        <label for="photo">Upload Upload (jpg/png)</label>
+        <input type="file" name="photo" id="photo">
+
+        <br>
+        <label for="hidden">Hidden</label>
+        <input type="hidden" name="secret" id="hidden" value="12345">
+
+        <br>
+        <label label="rate">Rate(1-5)</label>
+        <input type="range" min="1" max="5" name="rate" id="rate">
+
+        <br>
+        <label for="url">Website</label>
+        <input type="url" name="url" id="url">
+
+        <br>
+        
+
+    </fieldset>
+    <fieldset>
+        <legend>Favourite Sports</legend>
+        
+        <label for="cricket">Cricket</label>
+        <input type="checkbox" name="football" id="football" value="football">
+        <label for="football">Footbal</label>
+        <input type="checkbox" name="Football" id="Football" value="Football">
+        <label for="Hockey">Hockey</label>
+        <input type="checkbox" name="Hocket" id="Hockey" value="Hockey">
+    </fieldset>
+    <fieldset>
+        <legend>Gender</legend>
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male" value="male" checked>
+
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female" value="female">
+    </fieldset>
+
+    <fieldset>
+        <legend>Semester</legend>
+
+        <select name="semester" id="semester">
+            <label for="y1">Year 1</label>
+            <optgroup id="y1">
+                <option value="1">Semester 1</option>
+                <option value="2">Semester 2</option>
+            </optgroup>
+            
+            <option value="3">Semester 3</option>
+            <option value="4">Semester 4</option>
+            <option value="5">Semester 5</option>
+            <option value="6">Semester 6</option>
+        </select>
+        <label for="feedback">Feedback</label>
+        <textarea name="feedback" id="feedback"></textarea>
+    </fieldset>
+        <fieldset>
+            <legend>Submission Buttons</legend>
+            <input type="submit" >
+            <br>
+            <input type="reset" >
+
+            <br>
+            <input type="button" value="Draft">
+        </fieldset>
+        
+        
+    </form>
+</body>
+</html>
